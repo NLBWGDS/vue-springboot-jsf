@@ -1,0 +1,34 @@
+# 依赖与构建产物
+**/node_modules/
+**/target/
+**/dist/
+**/dist-analysis/
+
+# 编辑器配置
+.idea/
+.vscode/
+
+# 日志
+*.log
+
+# 本地私密配置
+**/application-local.yml
+**/application-local.yaml
+**/.env.local
+**/.env.*.local
+
+# 用户上传的头像、截图等文件
+/files/
+**/files/
+
+# 原始数据库脚本，后续另做脱敏版本
+/manager.sql
+
+# 暂不上传可能包含个人信息的文档
+/使用前必看.docx
+/毕业论文.md
+/摘要.md
+/英文摘要.md
+
+# 本地临时文件
+/query
